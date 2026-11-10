@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: bisque;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    list-style-type: none;
+    background-color: black;
+    margin: 0px;
+    padding: 20px;
+}
+
+ul li{
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, p{
+    padding-left: 10px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.Caja{
+    display: flex;
+    gap: 25px;
+}
+
+.Cajas{
+    background-color: #e8e8e8;
+    border-radius: 18px;
+    padding: 28px 26px;
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.25);
+    line-height: 1.55;
+    font-size: 15.5px;
+    flex: 1;
+}
+
+.encabezado{
+    color: white;
+}
