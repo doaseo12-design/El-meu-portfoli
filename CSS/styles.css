@@ -52,6 +52,30 @@ div{
     margin: 20px;
 }
 
+/*tabla*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0px;
+}
+
+th, td{
+    padding: 6px;
+}
+
+th, .hora{
+    background-color: white;
+}
+
+.ingles{
+    background-color: aquamarine;
+}
+
+.optativa{
+    background-color: purple;
+}
+
+/*pie de pagina*/
 footer{
     position: fixed;
     bottom: 0;
