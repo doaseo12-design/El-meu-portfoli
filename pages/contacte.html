@@ -14,26 +14,28 @@
                         <li><a href="./categories.html" class="encabezado"><strong>Categories</strong></a></li>
                         <li><a href="./sobre_mi.html" class="encabezado"><strong>Sobre mi</strong></a></li>
                         <li><a href="./estudis.html" class="encabezado"><strong>Estudis</strong></a></li>
+                        <li><a href="./contacte.html" class="encabezado"><strong>Contacte</strong></a></li>
                     </ul>
                 </nav>
             </header>
             <h1>Contacta amb mi</h1>
                 <div>
                     <form>
-                        <label>Nom complet:</label>
-                        <input type="text" placeholder="Escriu el teu nom...">
+                        <label for="nom">Nom complet:</label>
+                        <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom..." required><br>
 
-                        <label>Correu electrònic:</label>
-                        <input type="email" placeholder="nom@exemple.com">
+                        <label for="correu">Correu electrònic:</label>
+                        <input type="email" name="correu" id="correu" placeholder="nom@exemple.com" required><br>
 
-                        <label>Assumpte:</label>
-                        <input type="text" placeholder="Motiu del missatge...">
+                        <label for="assumpte">Assumpte:</label>
+                        <input type="text" name="assumpte" id="assumpte" placeholder="Motiu del missatge..." required><br>
 
-                        <label>Missatge:</label>
-                        <textarea placeholder="Escriu el teu missatge aquí..."></textarea>
+                        <label for="missatge">Missatge:</label>
+                        <textarea id="missatge" name="missatge" placeholder="Escriu el teu missatge aquí..." required></textarea><br>
 
                         <button type="submit">Enviar missatge </button>
                     </form>
                 </div>
+            <footer>&copy2026 Adriano Baldion - Tots els drets reservats</footer>
         </body>
     </html>

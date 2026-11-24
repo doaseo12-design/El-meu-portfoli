@@ -104,6 +104,19 @@ th, .hora{
     background-color: rgb(238, 45, 222);
 }
 
+/*formulario*/
+form{
+    font-size: 17px;
+}
+
+form textarea{
+    font-size: 17px;
+}
+
+form button{
+    font-size: 17px;;
+}
+
 /*pie de pagina*/
 footer{
     position: fixed;
