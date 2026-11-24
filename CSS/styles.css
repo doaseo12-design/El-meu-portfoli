@@ -3,6 +3,7 @@ body{
     background-color: bisque;
 }
 
+/*Encabezado*/
 ul{
     display: flex;
     justify-content: center;
@@ -29,6 +30,7 @@ li{
     font-size: 20px;
 }
 
+/*Sobre mi*/
 .Caja{
     display: flex;
     gap: 25px;
@@ -53,6 +55,13 @@ div{
 }
 
 /*tabla*/
+table{
+    width: 800px;
+    height: 400px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -72,7 +81,27 @@ th, .hora{
 }
 
 .optativa{
-    background-color: purple;
+    background-color: rgb(190, 61, 190);
+}
+
+.muntatge{
+    background-color: rgb(255, 192, 206);
+}
+
+.xarxes{
+    background-color: rgba(139, 28, 28, 0.644);
+}
+
+.ofimatica{
+    background-color: greenyellow;
+}
+
+.sostenibilitat{
+    background-color: rgb(157, 143, 243);
+}
+
+.monolloc{
+    background-color: rgb(238, 45, 222);
 }
 
 /*pie de pagina*/
